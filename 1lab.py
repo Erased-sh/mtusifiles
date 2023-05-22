@@ -13,3 +13,25 @@ def lab1():
     x_user = float(input('Введите значение x: '))
     f_user = math.tan(2 * x_user) + 1 / math.cos(2 * x_user)
     return (f'Вычисление для x = {x_user}: f(x) = {f_user:.4f}')
+    
+N = 5
+print(f'Номер моей бригады - {N}')
+
+N = input()
+print(N)
+print('Номер моей бригады')
+
+for i in range(0, 6):
+    print(f'{"*" * i}\\')
+    
+for _ in range(1, 5):
+    print('-', '-', '-', sep='')
+
+for i in ['*', '!', '=', '^']:
+    print('-', '-', '-', sep=i)
+
+print('Я fam', end=', ')
+print('участник бригады N')
+
+
+
