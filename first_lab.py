@@ -13,3 +13,4 @@ def lab1():
     x_user = float(input('Введите значение x: '))
     f_user = math.tan(2 * x_user) + 1 / math.cos(2 * x_user)
     print(f'Вычисление для x = {x_user}: f(x) = {f_user:.4f}')
+    return (f'Вычисление для x = {x_user}: f(x) = {f_user:.4f}')
