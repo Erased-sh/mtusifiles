@@ -11,6 +11,7 @@ def lab5():
         print("Ошибка: неверный формат адреса электронной почты")
     lab5task2(email)
 
+#Если нужен класс, логично было бы сделать private
 def lab5task2(string):
     vowels = ['a', 'e', 'i', 'o', 'u']
     count = 0
